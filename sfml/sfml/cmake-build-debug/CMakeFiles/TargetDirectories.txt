@@ -1,0 +1,3 @@
+C:/Users/lbien/Documents/Projekt_inf2/sfml/sfml/cmake-build-debug/CMakeFiles/sfml.dir
+C:/Users/lbien/Documents/Projekt_inf2/sfml/sfml/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lbien/Documents/Projekt_inf2/sfml/sfml/cmake-build-debug/CMakeFiles/rebuild_cache.dir

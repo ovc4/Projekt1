@@ -1,0 +1,16 @@
+# ninja log v6
+375	2347	7837973034008922	CMakeFiles/sfml.dir/main.cpp.obj	ebcc6a7a197b1897
+3	320	7837975775876229	build.ninja	f5b9e8edef7362b0
+2348	2577	7837973053744531	sfml.exe	76d33931df57fd18
+8	24	7837973029270873	clean	d5eb62278bd53dd9
+8	345	7837973030347947	CMakeFiles/sfml.dir/main.cpp.obj.ddi	b859e960ea22779f
+346	374	7837973033948919	CMakeFiles/sfml.dir/CXX.dd	ebc07e8d89435a14
+346	374	7837973033948919	C:/Users/lbien/Documents/Projekt_inf2/sfml/sfml/cmake-build-debug/CMakeFiles/sfml.dir/CXXModules.json	ebc07e8d89435a14
+346	374	7837973033948919	CMakeFiles/sfml.dir/main.cpp.obj.modmap	ebc07e8d89435a14
+7	21	7837975802773436	clean	d5eb62278bd53dd9
+12	327	7837975804086795	CMakeFiles/sfml.dir/main.cpp.obj.ddi	b859e960ea22779f
+328	370	7837975807610380	CMakeFiles/sfml.dir/CXX.dd	ebc07e8d89435a14
+328	370	7837975807610380	C:/Users/lbien/Documents/Projekt_inf2/sfml/sfml/cmake-build-debug/CMakeFiles/sfml.dir/CXXModules.json	ebc07e8d89435a14
+328	370	7837975807610380	CMakeFiles/sfml.dir/main.cpp.obj.modmap	ebc07e8d89435a14
+371	2149	7837975807685441	CMakeFiles/sfml.dir/main.cpp.obj	ebcc6a7a197b1897
+2150	2295	7837975825465772	sfml.exe	76d33931df57fd18

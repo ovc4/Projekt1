@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2025.2.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\sfml.dir/objects.a
+C:\Users\lbien\Documents\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\ar.exe qc CMakeFiles\sfml.dir/objects.a @CMakeFiles\sfml.dir\objects1.rsp
+C:\Users\lbien\Documents\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\sfml.dir/objects.a -Wl,--no-whole-archive -o sfml.exe -Wl,--out-implib,libsfml.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sfml.dir\linkLibs.rsp
