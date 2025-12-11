@@ -29,7 +29,6 @@ private:
     std::vector<BlockData> blocks;
 };
 
-// ------- DEFINICJA capture (inline) --------
 #include "Paletka.h"
 #include "Pilka.h"
 #include "Stone.h"
