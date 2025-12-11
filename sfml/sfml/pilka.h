@@ -21,7 +21,6 @@ public:
         shape.setFillColor(sf::Color::White);
     }
 
-    // w Pilka.h
     void setPosition(float nx, float ny) {
         x = nx; y = ny;
         shape.setPosition({x,y});
@@ -50,33 +49,27 @@ public:
     void bounceX() { vx = -vx; }
     void bounceY() { vy = -vy; }
 
-    // Kolizje ze ścianami: odbicie od lewa/prawo/gora; dół -> przegrana (nie odbija)
     void collideWalls(float width, float height) {
-        // lewa
         if (x - radius <= 0.f) {
             x = radius;
             if (vx < 0.f) bounceX();
             shape.setPosition({x, y});
             std::cout << "odbicie lewa sciana\n";
         }
-        // prawa
         if (x + radius >= width) {
             x = width - radius;
             if (vx > 0.f) bounceX();
             shape.setPosition({x, y});
             std::cout << "odbicie prawa sciana\n";
         }
-        // sufit
         if (y - radius <= 0.f) {
             y = radius;
             if (vy < 0.f) bounceY();
             shape.setPosition({x, y});
             std::cout << "odbicie sufit\n";
         }
-        // dol -> nie odbijamy tutaj (również w main sprawdzamy przegraną)
     }
 
-    // Kolizja z paletką (z góry). Zwraca true jeśli był HIT.
     bool collidePaddle(const Paletka& p) {
         float palX = p.getX();
         float palY = p.getY();
@@ -87,7 +80,6 @@ public:
         float palRight = palX + palW / 2.f;
         float palTop = palY - palH / 2.f;
 
-        // warunki podane w zadaniu:
         bool horizontallyOverPaddle = (x >= palLeft) && (x <= palRight);
         bool touchesFromAbove = ( (y + radius) >= palTop ) && ( (y - radius) < palTop );
 
@@ -104,9 +96,6 @@ public:
         target.draw(shape);
     }
 
-
-
-    // gettery debug
     float getX() const { return x; }
     float getY() const { return y; }
     float getVx() const { return vx; }
