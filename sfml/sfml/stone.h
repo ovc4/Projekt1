@@ -16,7 +16,6 @@ private:
     }
 
 public:
-    // Konstruktor: startPos = środek prostokąta (origin ustawione na środek)
     Stone(const sf::Vector2f& startPos, const sf::Vector2f& rozmiar, int L)
         : m_punktyZycia(L)
         , m_jestZniszczony(false)
@@ -42,7 +41,6 @@ public:
 
     int getHP() const { return m_punktyZycia; }
 
-    // Rysowanie tylko gdy blok nie jest zniszczony
     void draw(sf::RenderTarget& target) const {
         if (!m_jestZniszczony) {
             target.draw(static_cast<const sf::RectangleShape&>(*this));
