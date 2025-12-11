@@ -33,7 +33,6 @@ public:
     }
 
 private:
-    // ---- konfiguracja planszy ----
     const float WIDTH  = 640.f;
     const float HEIGHT = 480.f;
 
@@ -43,13 +42,11 @@ private:
     const float GAP = 2.f;
     const float TOP_OFFSET = 0.f; // bloczki od samej góry
 
-    // ---- obiekty gry ----
     sf::RenderWindow m_window;
     Paletka m_paletka;
     Pilka  m_pilka;
     std::vector<Stone> m_bloki;
 
-    // ---- stan gry i losowanie ----
     bool m_gameStarted = false;
     std::mt19937 m_gen;
     std::uniform_real_distribution<float> m_vxDist;
@@ -126,7 +123,6 @@ private:
                 }
             }
 
-            // przegrana: piłka poniżej okna -> KONIEC GRY
             if (m_pilka.getY() - m_pilka.getRadius() > HEIGHT) {
                 std::cout << "MISS! KONIEC GRY\n";
                 m_window.close();
@@ -155,7 +151,6 @@ private:
         m_window.display();
     }
 
-    // pomocnik: kolizja koło-prostokąt (closest point). Zakłada origin prostokąta = środek
     bool circleRectCollides(float cx, float cy, float r, const sf::RectangleShape& rect) const {
         sf::Vector2f rectPos = rect.getPosition();
         sf::Vector2f half = rect.getSize() / 2.f;
