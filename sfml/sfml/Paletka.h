@@ -7,7 +7,7 @@ private:
     float y;
     float szerokosc;
     float wysokosc;
-    float predkosc;     // pikseli na klatkę
+    float predkosc;     
     sf::RectangleShape shape;
 
     void updateShape() {
