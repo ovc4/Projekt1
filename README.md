@@ -48,6 +48,3 @@ Celem projektu jest pokazanie obiektowego podejścia do tworzenia gry: ruch pił
 
 ---
 
-
-   cmake ..
-   m
