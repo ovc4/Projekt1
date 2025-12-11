@@ -48,15 +48,6 @@ Celem projektu jest pokazanie obiektowego podejścia do tworzenia gry: ruch pił
 
 ---
 
-## Sposób uruchomienia
 
-1. Skompiluj projekt przy użyciu CMake lub Makefile:
-   ```bash
-   mkdir build
-   cd build
    cmake ..
-   make
-
-
-
-
+   m
