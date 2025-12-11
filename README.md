@@ -7,13 +7,6 @@ Celem projektu jest pokazanie obiektowego podejścia do tworzenia gry: ruch pił
 
 ## Scenariusz gry
 
-Po uruchomieniu pojawia się **menu główne**:
-
-- `START (S)` – rozpoczyna grę  
-- `EXIT (ESC)` – zamyka aplikację  
-
-Po wybraniu *START*:
-
 1. Pokazuje się okno gry **640 × 480**.
 2. Na dole znajduje się **paletka** sterowana klawiszami:
    - `A` lub `←` – ruch w lewo  
